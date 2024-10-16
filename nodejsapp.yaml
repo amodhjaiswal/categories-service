@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: categories-service
-        image: 288761769499.dkr.ecr.ap-south-1.amazonaws.com/catagories-service:latest
+        image: 401704305923.dkr.ecr.ap-southeast-2.amazonaws.com/categories-service:latest
         ports:
         - containerPort: 3002
         env:
