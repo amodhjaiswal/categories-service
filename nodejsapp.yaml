@@ -26,9 +26,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: ClusterIP 
+  name: categories-service 
 spec:
-  type: LoadBalancer
+  type: ClusterIP 
   ports:
     - port: 3002
       targetPort: 3002
